@@ -5,7 +5,7 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class UI_DOINVENTARIO
+public class Inventory_UI
 {
     [System.Serializable]
     public class Slot
@@ -35,7 +35,7 @@ public class UI_DOINVENTARIO
 
     public List<Slot> slots = new List<Slot>();
 
-    public UI_DOINVENTARIO(int numSlots)
+    public Inventory_UI(int numSlots)
     {
         for (int i = 0; i < numSlots; i++)
         {
