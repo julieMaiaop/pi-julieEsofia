@@ -2,17 +2,18 @@ using UnityEngine;
 
 public class ItemColector : MonoBehaviour
 {
-
-
-    public int itemCount = 0; // Contador de itens coletados
-
-    void OnTriggerEnter2D(Collider2D other)
+    public CollectableType type;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Item"))
+        Player player = collision.GetComponent<Player>();
+        if (player)
         {
-            itemCount++; // Aumenta o contador
-            Destroy(other.gameObject); // Remove o item da cena
-            Debug.Log("Item coletado! Total: " + itemCount);
+            player.inventory.Add(type);
+            Destroy(this.gameObject);
         }
     }
+}
+public enum CollectableType
+{
+    NONE, CARROT_SEED
 }
