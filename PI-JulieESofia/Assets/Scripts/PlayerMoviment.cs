@@ -6,7 +6,10 @@ public class PlayerMoviment : MonoBehaviour
     public Rigidbody2D rb;       // Referência ao Rigidbody2D
 
     Vector2 movement; // Vetor de movimento
-
+    private void Start()
+    {
+        rb.gravityScale = 0;
+    }
     void Update()
     {
         // Entrada do teclado (Eixo horizontal e vertical)
