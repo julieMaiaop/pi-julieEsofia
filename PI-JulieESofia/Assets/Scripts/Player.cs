@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public Inventory inventory;
+    public UI_DOINVENTARIO inventory;
     private void Awake()
     {
-        inventory = new Inventory(21);
+        inventory = new UI_DOINVENTARIO(21);
 
     }
 }
