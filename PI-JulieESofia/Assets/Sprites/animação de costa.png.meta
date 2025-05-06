@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 28e1dc2ed1bf15c408217bd9a8c1be40
+guid: 5f9d1cc34b7b8ea4297751bf30fadc96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7011661911796687584
-    second: Road_0
+      213: -847706518279498083
+    second: "anima\xE7\xE3o de costa_0"
+  - first:
+      213: -1198927576721088533
+    second: "anima\xE7\xE3o de costa_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Road_0
+      name: "anima\xE7\xE3o de costa_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,130 +131,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02dd83ef3a291be90800000000000000
-      internalID: -7011661911796687584
+      spriteID: d96da28b9675c34f0800000000000000
+      internalID: -847706518279498083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebef8e314d693c646a8adf2c1ccbb004
-      internalID: 152073661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_2
+      name: "anima\xE7\xE3o de costa_1"
       rect:
         serializedVersion: 2
         x: 16
         y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ba16631d720e7d44da21824959c2dafc
-      internalID: -462576364
+      spriteID: bef9e1e98bd8c5fe0800000000000000
+      internalID: -1198927576721088533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10f217b1cf7b02845844f1ad1db83cce
-      internalID: 1791843465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06bd6fb2f10524d458227e78a2394200
-      internalID: -356286892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_5
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 781fd1d64847523478094612a9f5e174
-      internalID: -1691762978
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_6
+      name: "anima\xE7\xE3o de costa_2"
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f03c4561d0ac0cb4c873c0fbf5db69f8
-      internalID: 1631867245
+      spriteID: f1cfbb5e3ee55e04d956b0951668c082
+      internalID: -1230349016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_7
+      name: "anima\xE7\xE3o de costa_3"
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
+        y: 32
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 844de33dd8dcde243a9ade9e1fdf9ccf
-      internalID: 538548011
+      spriteID: dbe321baaeee0ca43bc64d576736574b
+      internalID: -1917603998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_8
+      name: "anima\xE7\xE3o de costa_4"
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +219,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 092f1f46e1179894ea9dae8a3f22b706
-      internalID: -2007154805
+      spriteID: dcf4442b700e64c498f0e7a83a7c68cc
+      internalID: -1502889168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_9
+      name: "anima\xE7\xE3o de costa_5"
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c29918ad4c9df745958f9a6e09e6145
-      internalID: -838019394
+      spriteID: 29424441efdebfc488a6f3aff4a2c1b6
+      internalID: 136610515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_10
+      name: "anima\xE7\xE3o de costa_6"
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,8 +263,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e33df49caad7145b5a4b3d94057269
-      internalID: 2076750207
+      spriteID: 907bae1ff0693d04d9767b60084319b4
+      internalID: 1601763939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "anima\xE7\xE3o de costa_7"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64357082b1343f64a9c1ca169281a344
+      internalID: -727552346
       vertices: []
       indices: 
       edges: []
@@ -358,7 +295,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5de29b6b214427b41ab7db118c32aa8a
+    spriteID: 67e994976bfb3d74191ac21d1f1831ba
     internalID: 0
     vertices: []
     indices: 
@@ -368,17 +305,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Road_0: -7011661911796687584
-      Road_1: 152073661
-      Road_10: 2076750207
-      Road_2: -462576364
-      Road_3: 1791843465
-      Road_4: -356286892
-      Road_5: -1691762978
-      Road_6: 1631867245
-      Road_7: 538548011
-      Road_8: -2007154805
-      Road_9: -838019394
+      "anima\xE7\xE3o de costa_0": -847706518279498083
+      "anima\xE7\xE3o de costa_1": -1198927576721088533
+      "anima\xE7\xE3o de costa_2": -1230349016
+      "anima\xE7\xE3o de costa_3": -1917603998
+      "anima\xE7\xE3o de costa_4": -1502889168
+      "anima\xE7\xE3o de costa_5": 136610515
+      "anima\xE7\xE3o de costa_6": 1601763939
+      "anima\xE7\xE3o de costa_7": -727552346
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

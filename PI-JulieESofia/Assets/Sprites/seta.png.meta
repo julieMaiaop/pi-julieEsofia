@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: 28e1dc2ed1bf15c408217bd9a8c1be40
+guid: e315df9644770f6468923e5e9c3bd967
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7011661911796687584
-    second: Road_0
+      213: 5224837830077223733
+    second: seta_0
+  - first:
+      213: -653187201095383791
+    second: seta_1
+  - first:
+      213: -150400864968751463
+    second: seta_2
+  - first:
+      213: -1556667060562526412
+    second: seta_3
+  - first:
+      213: 2188828447714248150
+    second: seta_4
+  - first:
+      213: 606231502327648624
+    second: seta_5
+  - first:
+      213: 3584278562050386284
+    second: seta_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Road_0
+      name: seta_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,228 +146,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02dd83ef3a291be90800000000000000
-      internalID: -7011661911796687584
+      spriteID: 53396c6f25a528840800000000000000
+      internalID: 5224837830077223733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_1
+      name: seta_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 256
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ebef8e314d693c646a8adf2c1ccbb004
-      internalID: 152073661
+      spriteID: 115c0ea83b96fe6f0800000000000000
+      internalID: -653187201095383791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_2
+      name: seta_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 512
+        y: 512
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ba16631d720e7d44da21824959c2dafc
-      internalID: -462576364
+      spriteID: 99640adc53ba9edf0800000000000000
+      internalID: -150400864968751463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10f217b1cf7b02845844f1ad1db83cce
-      internalID: 1791843465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_4
+      name: seta_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 06bd6fb2f10524d458227e78a2394200
-      internalID: -356286892
+      spriteID: 43f7e955e8b956ae0800000000000000
+      internalID: -1556667060562526412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_5
+      name: seta_4
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 256
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 781fd1d64847523478094612a9f5e174
-      internalID: -1691762978
+      spriteID: 6d5074450e7406e10800000000000000
+      internalID: 2188828447714248150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_6
+      name: seta_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 512
+        y: 256
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f03c4561d0ac0cb4c873c0fbf5db69f8
-      internalID: 1631867245
+      spriteID: 07114e3e654c96800800000000000000
+      internalID: 606231502327648624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Road_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 844de33dd8dcde243a9ade9e1fdf9ccf
-      internalID: 538548011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_8
+      name: seta_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 092f1f46e1179894ea9dae8a3f22b706
-      internalID: -2007154805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_9
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c29918ad4c9df745958f9a6e09e6145
-      internalID: -838019394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Road_10
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66e33df49caad7145b5a4b3d94057269
-      internalID: 2076750207
+      spriteID: c69af03ac5aedb130800000000000000
+      internalID: 3584278562050386284
       vertices: []
       indices: 
       edges: []
@@ -358,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5de29b6b214427b41ab7db118c32aa8a
+    spriteID: 2b7ac7843a5779f4bac8addf8c77bc8c
     internalID: 0
     vertices: []
     indices: 
@@ -368,17 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Road_0: -7011661911796687584
-      Road_1: 152073661
-      Road_10: 2076750207
-      Road_2: -462576364
-      Road_3: 1791843465
-      Road_4: -356286892
-      Road_5: -1691762978
-      Road_6: 1631867245
-      Road_7: 538548011
-      Road_8: -2007154805
-      Road_9: -838019394
+      seta_0: 5224837830077223733
+      seta_1: -653187201095383791
+      seta_2: -150400864968751463
+      seta_3: -1556667060562526412
+      seta_4: 2188828447714248150
+      seta_5: 606231502327648624
+      seta_6: 3584278562050386284
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
