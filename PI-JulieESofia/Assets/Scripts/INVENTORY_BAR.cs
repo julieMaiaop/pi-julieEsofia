@@ -2,9 +2,7 @@ using UnityEngine;
 
 public class INVENTORY_BAR : MonoBehaviour
 {
-
-}
-   /*public UI_DOINVENTARIO inventoryData;
+    /*public UI_DOINVENTARIO inventoryData;
     public Slot_UI[] slots;
 
     void Start()
@@ -30,9 +28,8 @@ public class INVENTORY_BAR : MonoBehaviour
             }
             else
             {
-                slots[i].ClearSlot();/*
+                slots[i].ClearSlot();
             }
         }
-    }
+    }*/
 }
-/*

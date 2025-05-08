@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class MovementPlayer : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Velocidade de movimento
-    public Rigidbody2D rb;       // Referência ao Rigidbody2D
-   
+    [SerializeField] float moveSpeed = 5f; // Velocidade de movimento
+    [SerializeField] Rigidbody2D rb;       // Referência ao Rigidbody2D
+
+    [SerializeField] Animator anim;
+
 
     Vector2 movement; // Vetor de movimento
     private void Start()
@@ -16,6 +18,10 @@ public class MovementPlayer : MonoBehaviour
         // Entrada do teclado (Eixo horizontal e vertical)
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.sqrMagnitude);
     }
 
     void FixedUpdate()

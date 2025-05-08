@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 public class PlayerPartyController : MonoBehaviour
 {
-    [Header("Party Do Player")]
+    /*[Header("Party Do Player")]
     [SerializeField] public List<CharacterStatusGeneric> playerParty = new List<CharacterStatusGeneric>();
     [Space]
     public List<CharacterStatusGeneric> partyAtual = new List<CharacterStatusGeneric>();
@@ -33,5 +33,5 @@ public class PlayerPartyController : MonoBehaviour
         {
             playerParty[i].vidaAtual = playerParty[i].vidaMaxima;
         }
-    }
+    }*/
 }

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using JetBrains.Annotations;
+using TMPro;
 using UnityEngine;
 
 
@@ -13,6 +14,7 @@ public class Inventory_UI
         public CollectableType type;
         public int count;
         public int maxAllowed;
+        public TMP_Text countText;
 
         public Slot()
         {
@@ -30,6 +32,7 @@ public class Inventory_UI
         {
             this.type = type;
             count++;
+            countText.text = count.ToString();
         }
     }
 
